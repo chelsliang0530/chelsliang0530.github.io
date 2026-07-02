@@ -1,24 +1,24 @@
 
 [
-    {
-      "title": "Web design",
-      "icon": "/images/icon-design.svg",
-      "description": "The most modern and high-quality design made at a professional level."
-    },
-    {
-      "title": "Web development",
-      "icon": "/images/icon-dev.svg",
-      "description": "High-quality development of sites at the professional level."
-    },
-    {
-      "title": "Mobile apps",
-      "icon": "/images/icon-app.svg",
-      "description": "Professional development of applications for iOS and Android."
-    },
-    {
-      "title": "Photography",
-      "icon": "/images/icon-photo.svg",
-      "description": "I make high-quality photos of any category at a professional level."
-    }
-  ]
+  {
+    "title": "Machine Learning",
+    "icon": "/images/icon-design.svg",
+    "description": "Designing and deploying production machine learning models for large-scale prediction, recommendation, and forecasting."
+  },
+  {
+    "title": "Deep Learning",
+    "icon": "/images/icon-dev.svg",
+    "description": "Building neural networks for sequential modeling, representation learning, recommendation systems, and generative AI applications."
+  },
+  {
+    "title": "LLM Applications",
+    "icon": "/images/icon-app.svg",
+    "description": "Developing LLM-powered applications, AI agents, RAG pipelines, and workflow automation using modern AI frameworks."
+  },
+  {
+    "title": "MLOps & AI Infrastructure",
+    "icon": "/images/icon-photo.svg",
+    "description": "Building scalable ML pipelines, model serving infrastructure, automated training workflows, and production deployment systems."
+  }
+]
   

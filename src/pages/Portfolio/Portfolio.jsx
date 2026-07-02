@@ -39,7 +39,7 @@ const Portfolio = () => {
 
       {/* Filter buttons */}
       <ul className="filter-list">
-        {['All', 'Web design', 'Applications', 'Web development'].map(category => (
+        {['All', 'Recommendation Systems', 'Generative AI', 'AI Infrastructure'].map(category => (
           <li className="filter-item" key={category}>
             <button
               className={category === selectedCategory ? 'active' : ''}

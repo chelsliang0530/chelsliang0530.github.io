@@ -7,23 +7,27 @@ import Service from "./Service";
 const servicesData = [
   {
     icon: "/images/icon-design.svg",
-    title: "Web design",
-    description: "The most modern and high-quality design made at a professional level."
+    title: "Machine Learning",
+    description:
+      "Designing production ML models for large-scale prediction, forecasting, and classification using modern machine learning techniques."
   },
   {
     icon: "/images/icon-dev.svg",
-    title: "Web development",
-    description: "High-quality development of sites at the professional level."
+    title: "Recommendation Systems",
+    description:
+      "Building retrieval and ranking systems with deep learning, embeddings, and vector search for personalized recommendations."
   },
   {
     icon: "/images/icon-app.svg",
-    title: "Mobile apps",
-    description: "Professional development of applications for iOS and Android."
+    title: "LLM Applications",
+    description:
+      "Developing AI agents, RAG pipelines, workflow automation, and LLM-powered applications using modern AI frameworks."
   },
   {
     icon: "/images/icon-photo.svg",
-    title: "Photography",
-    description: "I make high-quality photos of any category at a professional level."
+    title: "MLOps & AI Infrastructure",
+    description:
+      "Building scalable data pipelines, model serving infrastructure, automated training workflows, and production deployment systems."
   }
 ];
 
@@ -45,9 +49,8 @@ const About = () => {
 
     <section className="about-text">
       <p>
-        I'm a Machine Learning Engineer with a background in quantitative finance and production software development.
-        I build scalable ML systems for ranking, recommendation, forecasting, and predictive analytics using modern
-        machine learning techniques and cloud-native engineering practices.
+        I build end-to-end machine learning systems for large-scale prediction, recommendation, and time-series forecasting. 
+        My experience spans deep learning, retrieval systems, production model deployment, and distributed data pipelines, with 8+ years building ML solutions in quantitative finance.
       </p>
     </section>
 
@@ -80,7 +83,7 @@ const About = () => {
       - testimonials
     --> */}
 
-    <section className="testimonials">
+    {/* <section className="testimonials">
 
       <h3 className="h3 testimonials-title">Testimonials</h3>
 
@@ -97,14 +100,14 @@ const About = () => {
 
       </ul>
 
-    </section>
+    </section>*/}
 
 
     {/* <!--
       - clients
     --> */}
 
-    <section className="clients">
+    {/*<section className="clients">
 
       <h3 className="h3 clients-title">Clients</h3>
 
@@ -148,7 +151,7 @@ const About = () => {
 
       </ul>
 
-    </section>
+    </section>*/}
 
   </article>
   )
