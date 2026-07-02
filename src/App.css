@@ -348,6 +348,23 @@ main {
   border-radius: 8px;
 }
 
+.info-content .headline {
+  color: var(--light-gray);
+  font-size: var(--fs-7);
+  font-weight: var(--fw-300);
+  line-height: 1.6;
+  max-width: 520px;
+  margin-top: 24px;
+  margin-bottom: 12px;
+}
+
+.info-content .tech-stack {
+  color: var(--light-gray-70);
+  font-size: var(--fs-8);
+  line-height: 1.6;
+  margin-bottom: 18px;
+}
+
 .info_more-btn {
   position: absolute;
   top: -15px;

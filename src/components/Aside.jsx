@@ -13,11 +13,22 @@ const Aside = () => {
           </figure>
 
           <div className="info-content">
+            <p className="eyebrow">Hello, I’m</p>
+
             <h1 className="name" title="Chelsea Liang">
               Chelsea Liang
             </h1>
 
-            <p className="title">Machine Learning Engineer</p>
+            <h2 className="title">Machine Learning Engineer</h2>
+
+            <p className="headline">
+              I build production-ready machine learning systems, from data pipelines
+              and model training to scalable deployment and monitoring.
+            </p>
+
+            <p className="tech-stack">
+              Python · PyTorch · Scikit-learn · FastAPI · Docker · AWS
+            </p>
           </div>
 
           <button className="info_more-btn" data-sidebar-btn>
